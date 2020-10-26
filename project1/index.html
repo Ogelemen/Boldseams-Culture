@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-white ">
+            <a class="navbar-brand" href="index.html">
+                <span>BC</span>
+                Boldseams Culture
+            </a>
+            <div class="menu-right">
+                <li>
+                    <i class="fa fa-bell-o" aria-hidden="true"></i>
+                    <span class="badge rounded-circle">3</span>
+                </li>
+                
+                <ul class="navbar-right">
+                    
+                    <li>
+                        <span>Seun James</span>
+                        <a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="row">
+        <aside class="col-1">
+            <P>TO</P>
+            <div class="bg-white"> 
+                <img src="images/mzuri_trans 2.png" alt="">
+            </div>
+                
+        </aside>
+        <div class="main col-11">
+            <div class="dif">
+                <ul>
+                    <li><a href="#">Settings</a> </li>
+                    <li><a href="#">User and Business Profile</a> </li>
+                </ul>
+                <svg width="1.3em" height="1em" viewBox="0 0 16 16" class="bi bi-info-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M8.93 6.588l-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588z"/>
+                    <circle cx="8" cy="4.5" r="1"/>
+                </svg>
+            </div>
+            
+            <div class="container mt-5 pt-5 mb-4">
+                <div class="pro-pic">
+                    <div>
+                        <img src="images/bc-logo-letter-design-vector-14081763 1.png" alt="">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M15 12V6a1 1 0 0 0-1-1h-1.172a3 3 0 0 1-2.12-.879l-.83-.828A1 1 0 0 0 9.173 3H6.828a1 1 0 0 0-.707.293l-.828.828A3 3 0 0 1 3.172 5H2a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+                            <path fill-rule="evenodd" d="M8 11a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                            <path d="M3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                        </svg>
+                    </div>
+                </div>
+                
+                <h5 class="text-center mt-3 name">Boldseams Culture</h5>
+            </div>
+
+            <div class="card container">
+                <div class="card-title p-3">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12">My Profile</div> 
+                        <div class="col-md-4 col-sm-12 text-right"><a href="#" data-toggle="modal" data-target="#PasswordPopup">Change Password</a> &nbsp;&nbsp;&nbsp;<a href="#" data-toggle="modal" data-target="#EditProfile">Edit</a> </div>
+                    </div> 
+                </div> 
+                <div class="card-text">
+                    <div class="data">
+                        <h3>Name</h3>
+                        <p>Fariq</p>
+                    </div>
+                    <div class="data">
+                        <h3>Email</h3>
+                        <p>fariq.umar@gmail.com</p>
+                    </div>
+                    <div class="data">
+                        <h3>Phone Number</h3>
+                        <p>08012345678</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card container mt-5 mb-4">
+                <div class="card-title p-3">
+                    <div class="row">
+                        <div class="col-md-8 col-sm-12">Businesses</div> 
+                        <div class="col-md-4 col-sm-12 text-right"><a href="#" class="add" data-toggle="modal" data-target="#AddBusiness"><i class="fa fa-plus-circle"></i>&nbsp; Add Business</a></div>
+                    </div> 
+                </div> 
+                <div class="card-text">
+                    <div class="data1" data-toggle="modal" data-target="#BusinessDetails">
+                        <h3>Boldseams Stitches</h3>
+                        <p>RC-906374</p>
+                    </div>
+                    <div class="data1">
+                        <h3>East-West Farmers</h3>
+                        <p>BN-905374</p>
+                    </div>
+                    <div class="data1">
+                        <h3>Mizzle Pharmaceuticals</h3>
+                        <p>RC-907864</p>
+                    </div>
+                    <div class="data1">
+                        <h3>Wigan Automobile</h3>
+                        <p>BN-524274</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="EditProfile" tabindex="-1" role="dialog" aria-labelledby="EditProfile" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Edit Profile Details</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form autocomplete="off" class="form" role="form">
+                    <div class="form-group">
+                        <label for="inputName">First Name</label> 
+                        <input class="form-control" id="inputName" value="Fariq" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3">Last Name</label> 
+                        <input class="form-control" id="inputEmail3" value="Abdulahi Umar" required="" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword3">Phone Number</label> 
+                        <input class="form-control" id="inputPassword3" value="09012345678" required="" type="tel"> 
+                    </div>
+                
+                    <div class="form-group submit-float">
+                      <button class="btn btn-primary" type="submit">Save</button>
+                    </div>
+                  </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="modal fade" id="PasswordPopup" tabindex="-1" role="dialog" aria-labelledby="PasswordPopup" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Change Password</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form autocomplete="off" class="form" role="form">
+                    <div class="form-group mod-2">
+                        <input class="form-control" id="inputName" placeholder="Old Password" type="password" required>
+                    </div>
+                    <div class="form-group mod-2">
+                        <input class="form-control" id="inputEmail3" placeholder="New Password" type="password" required>
+                    </div>
+                    <div class="form-group mod-2">
+                        <input class="form-control" id="inputPassword3" placeholder="Confirm Password" required type="password"> 
+                    </div>
+                
+                    <div class="form-group submit-float">
+                      <button class="btn btn-primary" type="submit">Save</button>
+                    </div>
+                  </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="modal fade" id="BusinessDetails" tabindex="-1" role="dialog" aria-labelledby="PasswordPopup" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Business Details - <span>Boldseams Couture</span></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Business Name</label> 
+                        <input class="form-control" id="inputName" placeholder="Boldseams Stitches" type="text" readonly>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="09012345678" readonly>
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Business Type</label>
+                                <input type="text" class="form-control" placeholder="Sole Proprietorship" readonly>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Email</label>
+                                <input type="email" class="form-control" placeholder="b.stitches@gmail.com" readonly>
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Industry</label>
+                                <input type="text" class="form-control" placeholder="Fashion Design" readonly>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Country</label>
+                                <input type="text" class="form-control" placeholder="Nigeria" readonly>
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">RC Number</label>
+                                <input type="text" class="form-control" placeholder="FS-906374" readonly>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">State</label>
+                                <input type="text" class="form-control" placeholder="Lagos" readonly>
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Local Council</label>
+                                <input type="text" class="form-control" placeholder="Ijaye" readonly>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputName">Business Address</label> 
+                        <input class="form-control" id="inputName" placeholder="5 Abiola Way, Ikeja" type="text" readonly>
+                    </div>
+                    <div class="form-group submit-float">
+                        <button class="btn btn-primary" type="submit" data-toggle="modal" data-target="#EditBusinessDetails" data-dismiss="modal">Edit</button>
+                      </div>
+                    </form>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="modal fade" id="EditBusinessDetails" tabindex="-1" role="dialog" aria-labelledby="EditBusinessDetails" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Business Details - <span>Boldseams Couture</span></h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Business Name</label> 
+                        <input class="form-control" id="inputName" placeholder="Boldseams Stitches" type="text" >
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="09012345678" >
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Business Type</label>
+                                <input type="text" class="form-control" placeholder="Sole Proprietorship" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Email</label>
+                                <input type="email" class="form-control" placeholder="b.stitches@gmail.com" >
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Industry</label>
+                                <input type="text" class="form-control" placeholder="Fashion Design" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Country</label>
+                                <input type="text" class="form-control" placeholder="Nigeria" >
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">RC Number</label>
+                                <input type="text" class="form-control" placeholder="FS-906374" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">State</label>
+                                <input type="text" class="form-control" placeholder="Lagos" >
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Local Council</label>
+                                <input type="text" class="form-control" placeholder="Ijaye" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputName">Business Address</label> 
+                        <input class="form-control" id="inputName" placeholder="5 Abiola Way, Ikeja" type="text" >
+                    </div>
+                    <div class="form-group submit-float">
+                        <button class="btn btn-primary" type="submit">Save</button>
+                      </div>
+                    </form>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="modal fade" id="AddBusiness" tabindex="-1" role="dialog" aria-labelledby="AddBusiness" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Add Business</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="inputName">Business Name</label> 
+                        <input class="form-control" id="inputName" placeholder="Boldseams Stitches" type="text" >
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="09012345678" >
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Business Type</label>
+                                <input type="text" class="form-control" placeholder="Sole Proprietorship" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Email</label>
+                                <input type="email" class="form-control" placeholder="b.stitches@gmail.com" >
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Industry</label>
+                                <input type="text" class="form-control" placeholder="Fashion Design" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Country</label>
+                                <input type="text" class="form-control" placeholder="Nigeria" >
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">RC Number</label>
+                                <input type="text" class="form-control" placeholder="FS-906374" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputName" class="ml-2">State</label>
+                                <input type="text" class="form-control" placeholder="Lagos" >
+                            </div>
+                            <div class="col">
+                                <label for="inputName" class="ml-2">Local Council</label>
+                                <input type="text" class="form-control" placeholder="Ijaye" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputName">Business Address</label> 
+                        <input class="form-control" id="inputName" placeholder="5 Abiola Way, Ikeja" type="text" >
+                    </div>
+                    <div class="form-group submit-float">
+                        <button class="btn btn-primary" type="submit">Save</button>
+                      </div>
+                    </form>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="modal fade" id="OTPverification" tabindex="-1" role="dialog" aria-labelledby="OTPverification" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">OTP Verification</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <h6 class="text-center mt-3">An OTP code was send to your phone and email, <br> Kindly input the code below</h6>
+                <div id="form">
+                    <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                    <input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" /><input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" /><input type="text" maxLength="1" size="1" min="0" max="9" pattern="[0-9]{1}" />
+                    <button class="btn btn-primary btn-embossed">Submit</button>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="modal fade" id="success" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="card">
+                <div class="card-img"> <img class="img-fluid" src="images/Group 10407.png"> </div>
+                <div class="card-text">
+                    <h3>Congratulations!</h3>
+                    <p>Your password has been changed successfully</p>
+                </div> <button class="btn">Continue</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+      <script>
+          $(function() {
+  'use strict';
+
+  var body = $('body');
+
+  function goToNextInput(e) {
+    var key = e.which,
+      t = $(e.target),
+      sib = t.next('input');
+
+    if (key != 9 && (key < 48 || key > 57)) {
+      e.preventDefault();
+      return false;
+    }
+
+    if (key === 9) {
+      return true;
+    }
+
+    if (!sib || !sib.length) {
+      sib = body.find('input').eq(0);
+    }
+    sib.select().focus();
+  }
+
+  function onKeyDown(e) {
+    var key = e.which;
+
+    if (key === 9 || (key >= 48 && key <= 57)) {
+      return true;
+    }
+
+    e.preventDefault();
+    return false;
+  }
+  
+  function onFocus(e) {
+    $(e.target).select();
+  }
+
+  body.on('keyup', 'input', goToNextInput);
+  body.on('keydown', 'input', onKeyDown);
+  body.on('click', 'input', onFocus);
+
+})
+      </script>
+</body>
+</html>

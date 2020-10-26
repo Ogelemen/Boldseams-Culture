@@ -1,0 +1,355 @@
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-style: .8em;
+}
+.navbar-brand span {
+    font-size: 1em;
+    margin-right: 8px;
+    padding: 8px;
+    border: 1px solid rgb(233, 232, 232);
+    border-radius: 10px;
+}
+.menu-right  {
+    display: flex;
+    font-weight: 600;
+}
+.navbar-right a {
+    text-decoration: underline;
+}
+.menu-right li {
+    list-style-type: none;
+    position: relative;
+    margin-top: 10px;
+}
+.menu-right li i {
+    padding-top: 3px;
+    font-size: 1.7em;
+    
+}
+.card a.add {
+    text-decoration: none !important;
+}
+.card a.add i {
+    font-size: 1.4em;
+}
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+.navbar-right li span {
+    display: block;
+    font-size: .8em;
+    text-align: right;
+}
+.navbar-right li a {
+    display: block;
+    font-size: .8em;
+    text-align: right;
+}
+.flex-div {
+    display: flex;
+    height: 100%;
+}
+aside {
+
+    background: linear-gradient(180deg, #0CA2D9 22.4%, #0077A3 83.85%);
+
+}
+aside .bg-white {
+    visibility: visible;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+}
+.bg-white img {
+    width: 80%;
+    margin: auto;
+}
+.row {
+    margin: 0 !important;
+}
+.dif {
+    display: flex;
+    justify-content: space-between;
+}
+.dif svg {
+    margin-top: 10px;
+    color: #333333;
+}
+.main {
+    background: #FAFAFA;
+}
+.main ul {
+    background: rgba(238,238,238,1);
+    border: 1px solid #eee;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    margin-left: -15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.main ul li {
+    display: inline;
+    padding: 2px 50px;
+    
+}
+.main ul li a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+}
+.main ul li:first-child {
+    background-color: #fff;
+    margin-left: -5px;
+    padding: 6.5px 50px;
+    position: relative;
+    
+}
+.main ul li:last-child {
+    padding-left: 30px;
+}
+.main ul li:last-child a {
+    color: rgb(131, 131, 131);
+}
+.main ul li:first-child::after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 16px solid #eee;
+    border-bottom: 18px solid #eee;
+    border-left: 16px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    right: -16px;
+}
+.pro-pic {
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+}
+.bi-camera {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.name {
+    color: #0979A2;
+    ;
+}
+aside p {
+    visibility: hidden;
+}
+.card {
+    border: 1px solid rgba(124,124,124,0.2);
+}
+.card-title {
+    font-weight: 600;
+    color: rgb(131, 130, 130) !important;
+}
+.card-title .row a {
+    text-decoration: underline;
+    font-size: .9em;
+}
+.card-text {
+    padding: 10px 30px;
+}
+.card-text h3 {
+    font-size: .8em;
+    color: rgb(131, 130, 130) !important;
+}
+.card .card-text .data {
+    display: inline-block;
+    width: 40%;
+    margin: 10px 30px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.card .card-text .data1 {
+    display: inline-block;
+    width: 40%;
+    margin: 10px 20px;
+    border: 1px solid rgba(124,124,124,0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px;
+}
+.card .card-text .data1:hover {
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+.card .card-text .data1 h3 {
+    color: #007bff !important;
+}
+.card .card-text .data1 p {
+    margin-bottom: 0;
+    color: rgb(100, 100, 100) !important;
+}
+
+.modal-header {
+    background: rgb(75, 127, 204);
+    color: #fff;
+}
+.modal-header .close {
+    color: #fff ;
+}
+.modal-header .close:hover {
+    color: white;
+}
+.modal .form-group {
+    position: relative;
+}
+.modal .form .form-group input {
+    margin: 40px 0 !important;
+}
+.modal .form .mod-2 input {
+    margin: 20px 0 !important;
+}
+.form-group label {
+    position: absolute;
+    background: #fff;
+    padding: 0 3px;
+    top: -14px;
+    left: 6px;
+    font-size: .9em;
+    border-radius: 2px;
+}
+.form-group.submit-float {
+    display: flex;
+    justify-content: center;
+}
+.form-group.submit-float button {
+    padding: 4px 40px;
+}
+#form {
+    max-width: 240px;
+    margin: 25px auto 0;  
+}
+
+#form input {
+    margin: 0 5px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 50px;
+    border: solid 1px #ccc;
+    box-shadow: 0 0 5px #ccc inset;
+    outline: none;
+    width: 20%;
+    transition: all .2s ease-in-out;
+    border-radius: 3px;    
+    background: #eee;
+}
+
+#form input::selection {
+    background: transparent;
+}
+#form button {
+    margin:  30px 0 50px;
+    width: 100%;
+    padding: 6px;
+    background-color: rgb(75, 127, 204);
+    border: none;
+    text-transform: uppercase;
+}
+#form div {
+    position: relative;
+    z-index: 1;
+}
+
+#success .card {
+    text-align: center;
+    padding: 40px 4px !important;
+}
+#success .card h3 {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color:#000 !important;
+}
+#success .btn {
+     background: rgb(75, 127, 204) !important;
+     color: #fff;
+     width: fit-content;
+     margin: auto;
+     margin-top: 15px;
+     padding: 4px 10px; 
+}
+@media screen and (max-width: 768px) {
+    .card {
+        padding: 20px 0;
+    }
+    .card .card-text .data {
+      display: block;
+      width: 100%;
+      margin: 0;
+      padding: 20px 0;
+    }
+    .card .card-text .data h3 {
+        margin-top: 15px;
+    }
+    .card .card-text .data1 {
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+    }
+  }
+  @media screen and (max-width: 584px) {
+      .navbar-brand {
+          font-size: 1em !important;
+      }
+    .main ul li {
+        padding: 3px !important;
+        font-size: .8em;
+    }
+    .main ul li:last-child {
+        padding-left: 30px !important;
+    }
+    .main ul li:first-child::after {
+        border-top: 12px solid #eee;
+        border-bottom: 10px solid #eee;
+    }
+    .main ul {
+        padding: 0 5px;
+    }
+    .card-title.p-3 {
+        padding: 0 !important;
+    }
+  }
+  @media screen and (max-width: 482px) {
+      .navbar-right {
+          padding-left: 10px !important;
+      }
+      
+  }
+  @media screen and (max-width: 425px) {
+      .navbar {
+          padding: .5em !important;
+          
+      }
+      .menu-right li i {
+        padding-top: 3px;
+        font-size: 1.4em;
+    }
+    .badge {
+        position: absolute;
+        top: -2px;
+    }
+    .card .card-text .data {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0 !important;
+    }
+    
+  }
